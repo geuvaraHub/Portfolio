@@ -1,4 +1,4 @@
-# Geuvara Ahmad - Personal Portfolio
+# Jevara Albashir - Personal Portfolio
 
 ## Overview
 A responsive, single-page personal portfolio website built to showcase my technical skills, projects, and hobbies. The site features a clean user interface with a built-in dark/light mode toggle, interactive project cards, and a fully responsive layout that adapts to both desktop and mobile devices.
