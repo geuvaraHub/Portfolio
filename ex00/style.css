@@ -346,7 +346,7 @@ form input:focus, form textarea:focus {
     .input-group {
         grid-template-columns: 1fr;
     }
-    .navbar {
+    .navbar a {
         display: none; 
     }
     .homeContent h1 {
