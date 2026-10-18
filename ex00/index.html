@@ -1,26 +1,64 @@
-<!-- Skills Section -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>G.B</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" id="myname">Jevara Albashir</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact Me</a>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+        </nav>
+    </header>
+
+   
+    <section id="home" class="home">
+        <div class="overlay"></div>
+        <div class="homeContent">
+            <h4>HELLO</h4>
+            <h1>I am Geuvara Ahmad</h1>
+            <p>A <span class="coloredtext">Computer Engineering graduate</span> from the University of Jordan.<br>Interested in many tech fields including: <span class="coloredtext">Game Development</span>, <span class="coloredtext">AI</span>, and <span class="coloredtext">Cyber Security</span>.</p>
+            <div class="action-btns">
+                <a href="#contact" class="btn primary">Contact Me</a>
+               
+            </div>
+        </div>
+    </section>
+
+    
     <section id="about" class="skills">
         <h2>Skills</h2>
         <p class="section-desc">Here are the core technical domains and toolsets I work with.</p>
         <div class="skills-grid">
             
-            <!-- 1. Web Development -->
+           
             <div class="skill-card">
                 <h3>🌐 Web Development</h3>
-                <p><strong>Core:</strong> HTML5, CSS3, JavaScript (ES6+)</p>
+                <p><strong>Core:</strong> HTML, CSS, JavaScript </p>
                 <p><strong>Backend & Database:</strong> Node.js, Express.js, MongoDB</p>
                 <p><strong>Tools & Workflows:</strong> REST APIs, Git & GitHub</p>
             </div>
 
-            <!-- 2. Cybersecurity -->
+          
             <div class="skill-card">
                 <h3>🛡️ Cybersecurity</h3>
                 <p><strong>Systems:</strong> Linux Fundamentals, Bash Scripting</p>
                 <p><strong>Networks:</strong> TCP/IP, DNS, OSI Model, Network Protocols</p>
-                <p><strong>Security Concepts:</strong> Web Security Basics (OWASP Top 10), Packet Analysis (Wireshark)</p>
+                <p><strong>Security Concepts:</strong> Web Security Basics </p>
             </div>
 
-            <!-- 3. AI & ML -->
+        
             <div class="skill-card">
                 <h3>🤖 AI & Machine Learning</h3>
                 <p><strong>Core Language:</strong> Python</p>
@@ -28,7 +66,7 @@
                 <p><strong>Frameworks & Architectures:</strong> PyTorch, Scikit-Learn, AI Agent Workflows</p>
             </div>
 
-            <!-- 4. Game Development -->
+          
             <div class="skill-card">
                 <h3>🎮 Game Development</h3>
                 <p><strong>Engine & Language:</strong> Unity, C#</p>
@@ -38,3 +76,93 @@
 
         </div>
     </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <p class="section-desc">A selection of my recent work and what I learned from them.</p>
+        <div class="projects-grid">
+            
+           
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>Git & Linux</h4>
+                    <p>Explored version control, terminal commands, and how to effectively manage code repositories using Git and Linux environments.</p>
+                </div>
+                <div class="card-hover-overlay">
+                    <a href="https://github.com/geuvaraHub/discovery-web-piscine.git" target="_blank" class="project-link">🔗 View Project</a>
+                </div>
+            </div>
+
+       
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>HTML Foundations</h4>
+                    <p>Learned the core structure of the web, semantic tags, and how to build accessible page layouts from scratch.</p>
+                </div>
+                <div class="card-hover-overlay">
+                    <a href="https://github.com/geuvaraHub/HTML.git" target="_blank" class="project-link">🔗 View Project</a>
+                </div>
+            </div>
+          
+       
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>CSS Styling</h4>
+                    <p>Learned advanced styling techniques including Flexbox, Grid, responsive design, and CSS animations.</p>
+                </div>
+                <div class="card-hover-overlay">
+                    <a href="https://github.com/geuvaraHub/CSS.git" target="_blank" class="project-link">🔗 View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>JavaScript Logic</h4>
+                    <p>Learned DOM manipulation, event handling, asynchronous programming, and creating interactive user interfaces.</p>
+                </div>
+                <div class="card-hover-overlay">
+                    <a href="https://github.com/geuvaraHub/JavaScript.git" target="_blank" class="project-link">🔗 View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="hobbies" class="hobbies">
+        <h2>My Hobbies</h2>
+        <p class="section-desc">When I'm not coding, here is what I love to do.</p>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <h3>📚 Reading</h3>
+                <p>I am interested in reading history, economics, and novels. I particularly enjoy horror and thriller fiction, such as Nick Cutter's <em>The Troop</em>.</p>
+            </div>
+            <div class="hobby-card">
+                <h3>✍️ Writing</h3>
+                <p>I hold a diploma in screenwriting from the Institute of Fine Arts under the Ministry of Culture in Jordan.</p>
+            </div>
+            <div class="hobby-card">
+                <h3>🎮 Gaming</h3>
+                <p>I like strategic games like Dota 2, League of Legends, and Mobile Legends. I also enjoy casual sessions of GTA San Andreas on mobile and diving into replay parsing for Rocket League.</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p class="section-desc">Feel free to reach out to me directly at <strong>geuvaraalbasheer@gmail.com</strong> or use the form below.</p>
+        <div class="contact-form-container">
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" placeholder="Your Subject" required class="full-width">
+                <textarea placeholder="Your Message" rows="6" required class="full-width"></textarea>
+                <button type="submit" class="btn primary full-width">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
